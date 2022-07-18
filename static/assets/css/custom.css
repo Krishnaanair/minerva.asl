@@ -1,0 +1,20 @@
+.backgroundImage{
+    background-repeat:no-repeat !important;
+    background-size:cover !important;
+    background-position: center !important;
+}
+#modelImage{
+    width:30%;height:30%;object-fit:scale-down;margin-top:23%;
+    transition: transform .2s;
+
+}
+#modelImage:hover{
+    transform: scale(1.2);
+}
+
+.displayNone{
+  display:none;
+}
+.dicplayVisible{
+    display: block;
+}
